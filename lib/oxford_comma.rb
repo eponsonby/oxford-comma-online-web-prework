@@ -3,6 +3,6 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length >= 3
     new_string = array[0..-2].join(", ") + ", and " + array[-1]
-    puts new_string
+    return new_string
   end
 end
